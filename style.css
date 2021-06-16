@@ -21,6 +21,7 @@ body{
     padding: 12px;
     border-radius: 6px;
     cursor: pointer;
+    text-align: center;
 }
 
 .container{
@@ -158,6 +159,100 @@ body{
     height: 100%;
 }
 
+.email__container{
+    width:100%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.email_input_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.email__container__heading{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #1d3557;
+    font-weight: 900 ;
+}
+
+.email__input{
+    border: 1px solid #ee89a0;
+    border-radius: 4px;
+    background-color: #fcedf0;
+    padding: 8px;
+    color: #1d3557;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.email__input::placeholder{
+    color: #bdbcbc;
+}
+
+.quote__container{
+    position: relative;
+    margin-top: 64px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 13px;
+    background: url("https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80")
+    center center / cover no-repeat;
+}
+
+.quote__image__overlay{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    border-radius: 13px;
+    opacity: 49%;
+    background-color: #0a4065;
+}
+
+
+.quote__text{
+    margin: 0 16px;
+    z-index: 3;
+    color:#fff;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px 16px 0 0;
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+}
+footer > img{
+    width: 300px;
+    filter: brightness(0) invert(1);
+}
+footer > ul{
+    margin-top: -16px;
+    color:#fff
+}
+footer > ul > li{
+    margin: 5px 0;
+}
+
 
 
         
@@ -216,6 +311,24 @@ body{
         width: 100%;
         font-size: 40px;
     }
+    .email__container__heading{
+        font-size: 48px;
+        line-height: 1;
+    }
+    .email__container{
+        display: flex;
+        justify-content: center;
+
+    }
+    footer{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    }
+    
+    
 }
 
 @media (min-width: 1020px){
