@@ -327,10 +327,7 @@ footer > ul > li{
         justify-content: space-evenly;
     
     }
-    
-    
 }
-
 @media (min-width: 1020px){
     .container{
         max-width: 900px;
@@ -355,11 +352,9 @@ footer > ul > li{
         font-size: 50px;
 
 }
-
 @media (min-width: 1400px)
 {
     .container{
         max-width: 1250px;
     }
 }
-
